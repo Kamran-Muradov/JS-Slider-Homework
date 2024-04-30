@@ -1,0 +1,39 @@
+.slider-area {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-area .slider-content {
+    width: 570px;
+    height: 410px;
+    text-align: center;
+    transition: all 0.7s;
+    opacity: 0;
+    position: absolute;
+}
+
+.slider-area .slider-content img {
+    width: 100%;
+    height: 100%;
+    border: 5px solid cadetblue;
+}
+
+.slider-area .active {
+    opacity: 1;
+}
+
+.slider-area .nav-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 57%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.slider-area .nav-icons i {
+    background-color: darkturquoise;
+    border-radius: 50%;
+    padding: 10px 11px;
+    color: white;
+}
